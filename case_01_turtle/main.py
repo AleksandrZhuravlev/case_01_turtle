@@ -1,7 +1,7 @@
 ## Case-study #1
 # Developers:   Zhuravlev Aleksandr (),
-#                (),
-#                Drachev Nikita()
+#               Starnovskiy Sergey (),
+#                ()
 import turtle
 #todo:()
 
