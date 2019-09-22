@@ -23,6 +23,17 @@ pass
 pass
 def triangle_regular(x,y,size,color,tilt):
 #todo:(Starnovskiy Sergey) make triangle drawing function
+        turtle.penup()
+        turtle.goto(x, y)
+        turtle.fd(size/2)
+        turtle.pendown()
+        turtle.rt(tilt)
+        turtle.rt(60)
+        turtle.fd(size)
+        turtle.rt(120)
+        turtle.fd(size)
+        turtle.rt(120)
+        turtle.fd(size)
 pass
 def Parallelogram(x,y,size,color)
 #todo:(Drachev Nikita) make Parallelogram drawing function
