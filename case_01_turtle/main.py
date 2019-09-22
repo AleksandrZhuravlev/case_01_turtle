@@ -18,6 +18,7 @@ def square(x, y, size, tilt):
         turtle.rt(90)
         turtle.fd(size)
         return (0)
+pass
 #todo:(zhuravlev aleksandr) make sqare drawing function
 pass
 def triangle_regular(x,y,size,color,tilt):
@@ -25,10 +26,8 @@ def triangle_regular(x,y,size,color,tilt):
 pass
 def Parallelogram(x,y,size,color)
 #todo:(Drachev Nikita) make Parallelogram drawing function
-
 pass
-    pass
 def circle(x, y, size, color):
 #todo:(Drachev Nikita) make circle drawing function
-    pass
+pass
 
