@@ -9,7 +9,8 @@ pass
 def triangle_regular(x,y,size,color,tilt)
 #todo:(Starnovskiy Sergey) make triangle drawing function
 pass
-def circle(x,y,size,color)
-#todo:(Drachev Nikita) make circle drawing function
+def Parallelogram(x,y,size,color)
+#todo:(Drachev Nikita) make Parallelogram drawing function
+
 pass
 
