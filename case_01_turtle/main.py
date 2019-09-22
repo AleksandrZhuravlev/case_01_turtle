@@ -39,7 +39,5 @@ pass
 def Parallelogram(x,y,size,color)
 #todo:(Drachev Nikita) make Parallelogram drawing function
 pass
-def circle(x, y, size, color):
-#todo:(Drachev Nikita) make circle drawing function
-pass
+
 
