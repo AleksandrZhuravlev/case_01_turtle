@@ -95,7 +95,8 @@ def man2():
     triangle_regular(191,-102,50,'lightblue',345)
     triangle_regular(175,-133,30,'violet',165)
     triangle_regular(120,-115,30,'pink',255)
-def main()
+def main():
     man1()
     man2()
-time.sleep(3)
+    time.sleep(3)
+main()
