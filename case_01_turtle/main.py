@@ -128,7 +128,6 @@ def main():
     man2()
     hare()
     fish()
-    turtle.exitonclick()
     time.sleep(3)
 main()
 #def Helicopter():
