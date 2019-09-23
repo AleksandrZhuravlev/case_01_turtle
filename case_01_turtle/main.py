@@ -8,6 +8,8 @@ def square(x, y, size,color, tilt):
         turtle.penup()
         turtle.goto(x, y)
         turtle.pendown()
+        turtle.color(color)
+        turtle.begin_fill()
         turtle.rt(tilt)
         turtle.rt(90)
         turtle.fd(size)
@@ -17,6 +19,7 @@ def square(x, y, size,color, tilt):
         turtle.fd(size)
         turtle.rt(90)
         turtle.fd(size)
+        turtle.end_fill()
         return (0)
 pass
 #todo:(zhuravlev aleksandr) make sqare drawing function
@@ -25,31 +28,36 @@ def triangle_regular(x,y,size,color,tilt):
 #todo:(Starnovskiy Sergey) make triangle drawing function
         turtle.penup()
         turtle.goto(x, y)
-        turtle.fd(size/2)
         turtle.pendown()
+        turtle.color(color)
+        turtle.begin_fill()
         turtle.rt(tilt)
-        turtle.rt(60)
         turtle.fd(size)
-        turtle.rt(120)
+        turtle.rt(90)
         turtle.fd(size)
-        turtle.rt(120)
+        turtle.rt(135)
         turtle.fd(size)
+        turtle.end_fill()
         return (0)
 pass
 def Parallelogram(x,y,size,color,tilt):
 #todo:(Drachev Nikita) make Parallelogram drawing function
         turtle.penup()
-        turtle.goto(x,y)
+        turtle.goto(x, y)
         turtle.pendown()
+        turtle.color(color)
+        turtle.begin_fill()
         turtle.rt(tilt)
-        turtle.rt(60)
+        turtle.rt(45)
         turtle.fd(size)
-        turtle.rt(30)
+        turtle.rt(45)
         turtle.fd(size)
-        turtle.rt(150)
+        turtle.rt(135)
         turtle.fd(size)
-        turtle.rt(30)
+        turtle.rt(45)
         turtle.fd(size)
+        turtle.end_fill()
+        return (0)
 pass
 
 
