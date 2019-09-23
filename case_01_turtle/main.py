@@ -104,14 +104,6 @@ def man1():
     triangle_regular(-24,-180,40,'violet',255)
     triangle_regular(-130, -129, 40, 'pink', 120)
     turtle.rt(225)
-def hare():
-    triangle_regular(0,0,50,'red',90)
-    square(2,10,20,'orange',315)
-    Parallelogram(12,12,20,'lightgreen',225)
-    triangle_regular(2,-40,20,'pink',0)
-    triangle_regular(-50,-102,50,'yellow',0)
-    triangle_regular(-12,-69,35,'lightblue',315)
-    triangle_regular(17,-104,25,'purple',225)
     pass
 
 def man2():
