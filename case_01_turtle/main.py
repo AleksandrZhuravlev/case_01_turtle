@@ -5,6 +5,15 @@
 import turtle
 import time
 def square(x, y, size,color, tilt):
+    """
+    function drawing square
+    :param x: first coordinate of left angle
+    :param y: second coordinate of left angle
+    :param size: length of sides
+    :param color: color of figure
+    :param tilt: incline of figure
+    :return: 
+    """"
         # todo:(zhuravlev aleksandr) make sqare drawing function
         turtle.penup()
         turtle.goto(x, y)
@@ -65,6 +74,7 @@ pass
 
 
 def man1():
+    #draws figure 4 from example
     square(0,50,35,'orange',45)
     turtle.up()
 
@@ -77,6 +87,7 @@ def man1():
     turtle.rt(225)
 
 def man2():
+    #draws figure 5 from example
     square(170, 50, 40, 'yellow', 45)
     triangle_regular(141,-55,70,'red',165)
     triangle_regular(70, 15, 70, 'orange', 165)
@@ -84,7 +95,7 @@ def man2():
     triangle_regular(191,-102,50,'lightblue',345)
     triangle_regular(175,-133,30,'violet',165)
     triangle_regular(120,-115,30,'pink',255)
-
-man1()
-man2()
+def main()
+    man1()
+    man2()
 time.sleep(3)
