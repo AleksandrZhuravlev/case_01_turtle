@@ -123,31 +123,30 @@ def man2():
     triangle_regular(191,-102,50,'lightblue',345)
     triangle_regular(175,-133,30,'violet',165)
     triangle_regular(120,-115,30,'pink',255)
+def Helicopter():
+    square(0,0,20,"orange",315)
+    triangle_regular(53,-22,30,"pink", 180)
+    triangle_regular(35,-45,30,"purple", 314)
+    triangle_regular(95,-55,50,"yellow", 45)
+    triangle_regular(97,15,50,"red", 315)
+    triangle_regular(37,15,40,"blue", 45)
+    Parallelogram(97,15,30,"green",90)
+    pass
+def ship():
+    Parallelogram(0,0,30,"green",-45)
+    triangle_regular(78,0,30,"blue",-90)
+    square(81,47,32,"orange",315)
+    triangle_regular(35,3,29,"pink", 0)
+    triangle_regular(31,75,50,"red", 225)
+    triangle_regular(28,60,50,"yellow", -180)
+    triangle_regular(52,80,20,"purple", -135)
+    pass
 def main():
     man1()
     man2()
     hare()
     fish()
+    ship()
+    Helicopter()
     time.sleep(3)
 main()
-#def Helicopter():
-    #square(0,0,20,"orange",315)
-    #triangle_regular(53,-22,30,"pink", 180)
-    #triangle_regular(35,-45,30,"purple", 314)
-    #triangle_regular(95,-55,50,"yellow", 45)
-    #triangle_regular(97,15,50,"red", 315)
-    #triangle_regular(37,15,40,"blue", 45)
-    #Parallelogram(97,15,30,"green",90)
-#pass
-#def ship():
-   # Parallelogram(0,0,30,"green",-45)
-   # triangle_regular(78,0,30,"blue",-90)
-    #square(81,47,32,"orange",315)
-   #triangle_regular(35,3,29,"pink", 0)
-   #triangle_regular(31,75,50,"red", 225)
-    #triangle_regular(28,60,50,"yellow", -180)
-    #triangle_regular(52,80,20,"purple", -135)
-
-#pass
-#ship()
-#Helicopter()
