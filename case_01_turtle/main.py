@@ -3,7 +3,7 @@
 #               Starnovskiy Sergey (),
 #                Drachev Nikita().
 import turtle
-def square(x, y, size, tilt):
+def square(x, y, size,color, tilt):
         # todo:(zhuravlev aleksandr) make sqare drawing function
         turtle.penup()
         turtle.goto(x, y)
@@ -51,6 +51,7 @@ def Parallelogram(x,y,size,color,tilt):
         turtle.rt(30)
         turtle.fd(size)
 pass
+
 
 
 
