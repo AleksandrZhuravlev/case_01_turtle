@@ -1,7 +1,7 @@
 ## Case-study #1
-# Developers:   Zhuravlev Aleksandr (),
-#               Starnovskiy Sergey (),
-#                Drachev Nikita().
+# Developers:   Zhuravlev Aleksandr (30),
+#               Starnovskiy Sergey (50),
+#                Drachev Nikita(30).
 import turtle
 import time
 def square(x, y, size,color, tilt):
@@ -123,7 +123,7 @@ def man2():
     triangle_regular(175,-133,30,'violet',165)
     triangle_regular(120,-115,30,'pink',255)
 def Helicopter():
-    square(-300,0,20,"orange",315)
+    square(-450,0,20,"orange",315)
     triangle_regular(-397,-22,30,"pink", 180)
     triangle_regular(-415,-45,30,"purple", 314)
     triangle_regular(-355,-55,50,"yellow", 45)
@@ -141,10 +141,7 @@ def ship():
     triangle_regular(-148,80,20,"purple", -135)
     pass
 def main():
-    #man1()
-   # turtle.setheading(0)
-    #man2()
-    #turtle.setheading(0)
+    turtle.setheading(0)
     hare()
     turtle.setheading(0)
     fish()
