@@ -5,15 +5,15 @@
 import turtle
 import time
 def square(x, y, size,color, tilt):
-    """
-    function drawing square
-    :param x: first coordinate of left angle
-    :param y: second coordinate of left angle
-    :param size: length of sides
-    :param color: color of figure
-    :param tilt: incline of figure
-    :return: 
-    """"
+
+    #function drawing square
+    #param x: first coordinate of left angle
+    #:param y: second coordinate of left angle
+    #:param size: length of sides
+    #:param color: color of figure
+    #:param tilt: incline of figure
+    #:return:
+
         # todo:(zhuravlev aleksandr) make sqare drawing function
         turtle.penup()
         turtle.goto(x, y)
@@ -72,6 +72,25 @@ def Parallelogram(x,y,size,color,tilt):
         return (0)
 pass
 
+def hare():
+    triangle_regular(300,0,50,'red',90)
+    square(302,10,20,'orange',315)
+    Parallelogram(312,12,20,'lightgreen',225)
+    triangle_regular(302,-40,20,'pink',0)
+    triangle_regular(250,-102,50,'yellow',0)
+    triangle_regular(288,-69,35,'lightblue',315)
+    triangle_regular(317,-104,25,'purple',225)
+    pass
+
+def fish():
+    triangle_regular(400,0,50,'red',0)
+    square(420,-50,20,'orange',0)
+    triangle_regular(450,-52,50,'yellow',225)
+    triangle_regular(452,-25,35,'lightblue',90)
+    Parallelogram(368,-28,30,'lightgreen',45)
+    triangle_regular(390,-81,30,'pink',45)
+    triangle_regular(388,-51,30,'purple',315)
+    pass
 
 def man1():
     #draws figure 4 from example
@@ -85,6 +104,15 @@ def man1():
     triangle_regular(-24,-180,40,'violet',255)
     triangle_regular(-130, -129, 40, 'pink', 120)
     turtle.rt(225)
+def hare():
+    triangle_regular(0,0,50,'red',90)
+    square(2,10,20,'orange',315)
+    Parallelogram(12,12,20,'lightgreen',225)
+    triangle_regular(2,-40,20,'pink',0)
+    triangle_regular(-50,-102,50,'yellow',0)
+    triangle_regular(-12,-69,35,'lightblue',315)
+    triangle_regular(17,-104,25,'purple',225)
+    pass
 
 def man2():
     #draws figure 5 from example
@@ -98,5 +126,7 @@ def man2():
 def main():
     man1()
     man2()
+    hare()
+    fish()
     time.sleep(3)
 main()
