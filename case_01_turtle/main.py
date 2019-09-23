@@ -36,20 +36,22 @@ def triangle_regular(x,y,size,color,tilt):
         turtle.fd(size)
         return (0)
 pass
-def Parallelogram(x,y,size,color,tilt)
+def Parallelogram(x,y,size,color,tilt):
 #todo:(Drachev Nikita) make Parallelogram drawing function
         turtle.penup()
         turtle.goto(x,y)
         turtle.pendown()
         turtle.rt(tilt)
-        turtle.rt(45)
+        turtle.rt(60)
         turtle.fd(size)
-        turtle.rt(45)
+        turtle.rt(30)
         turtle.fd(size)
-        turtle.rt(135)
+        turtle.rt(150)
         turtle.fd(size)
-        turtle.rt(45)
+        turtle.rt(30)
         turtle.fd(size)
 pass
+
+
 
 
